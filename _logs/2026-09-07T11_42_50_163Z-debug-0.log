@@ -1,0 +1,752 @@
+0 verbose cli D:\nvm\nodejs\node.exe D:\nvm\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v22.15.1
+3 silly config load:file:D:\nvm\v22.15.1\node_modules\npm\npmrc
+4 silly config load:file:d:\suyuan\realive-guard\.npmrc
+5 silly config load:file:C:\Users\32042\.npmrc
+6 silly config load:file:D:\nvm\nodejs\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:D:\suyuan\realive-guard\_logs\2026-09-07T11_42_50_163Z-
+10 verbose logfile D:\suyuan\realive-guard\_logs\2026-09-07T11_42_50_163Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest react@^19.2.8
+15 silly packumentCache full:https://registry.npmmirror.com/react cache-miss
+16 http fetch GET 200 https://registry.npmmirror.com/npm 142ms
+17 http fetch GET 200 https://registry.npmmirror.com/react 189ms (cache miss)
+18 silly packumentCache full:https://registry.npmmirror.com/react set size:1261673 disposed:false
+19 silly fetch manifest react-dom@^19.2.8
+20 silly packumentCache full:https://registry.npmmirror.com/react-dom cache-miss
+21 http fetch GET 200 https://registry.npmmirror.com/react-dom 227ms (cache miss)
+22 silly packumentCache full:https://registry.npmmirror.com/react-dom set size:1444024 disposed:false
+23 silly fetch manifest @types/node@^24.13.3
+24 silly packumentCache full:https://registry.npmmirror.com/@types%2fnode cache-miss
+25 http fetch GET 200 https://registry.npmmirror.com/@types%2fnode 93ms (cache miss)
+26 silly packumentCache full:https://registry.npmmirror.com/@types%2fnode set size:1168738 disposed:false
+27 silly fetch manifest @types/react@^19.2.18
+28 silly packumentCache full:https://registry.npmmirror.com/@types%2freact cache-miss
+29 http fetch GET 200 https://registry.npmmirror.com/@types%2freact 44ms (cache miss)
+30 silly packumentCache full:https://registry.npmmirror.com/@types%2freact set size:337419 disposed:false
+31 silly fetch manifest @types/react-dom@^19.2.4
+32 silly packumentCache full:https://registry.npmmirror.com/@types%2freact-dom cache-miss
+33 http fetch GET 200 https://registry.npmmirror.com/@types%2freact-dom 22ms (cache miss)
+34 silly packumentCache full:https://registry.npmmirror.com/@types%2freact-dom set size:84891 disposed:false
+35 silly fetch manifest @vitejs/plugin-react@^6.1.0
+36 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fplugin-react cache-miss
+37 http fetch GET 200 https://registry.npmmirror.com/@vitejs%2fplugin-react 25ms (cache miss)
+38 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fplugin-react set size:60634 disposed:false
+39 silly fetch manifest @rolldown/plugin-babel@^0.1.7 || ^0.2.0
+40 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fplugin-babel cache-miss
+41 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fplugin-babel 87ms (cache miss)
+42 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fplugin-babel set size:10104 disposed:false
+43 silly fetch manifest @babel/core@^7.29.0 || ^8.0.0-rc.1
+44 silly packumentCache full:https://registry.npmmirror.com/@babel%2fcore cache-miss
+45 http fetch GET 200 https://registry.npmmirror.com/@babel%2fcore 28ms (cache miss)
+46 silly packumentCache full:https://registry.npmmirror.com/@babel%2fcore set size:112087 disposed:false
+47 silly fetch manifest @babel/preset-typescript@^8.0.0-0
+48 silly packumentCache full:https://registry.npmmirror.com/@babel%2fpreset-typescript cache-miss
+49 http fetch GET 200 https://registry.npmmirror.com/@babel%2fpreset-typescript 38ms (cache miss)
+50 silly packumentCache full:https://registry.npmmirror.com/@babel%2fpreset-typescript set size:45748 disposed:false
+51 silly fetch manifest @babel/plugin-transform-runtime@^7.29.0 || ^8.0.0-rc.1
+52 silly packumentCache full:https://registry.npmmirror.com/@babel%2fplugin-transform-runtime cache-miss
+53 http fetch GET 200 https://registry.npmmirror.com/@babel%2fplugin-transform-runtime 54ms (cache miss)
+54 silly packumentCache full:https://registry.npmmirror.com/@babel%2fplugin-transform-runtime set size:72089 disposed:false
+55 silly fetch manifest @babel/runtime@^7.27.0 || ^8.0.0-rc.1
+56 silly packumentCache full:https://registry.npmmirror.com/@babel%2fruntime cache-miss
+57 http fetch GET 200 https://registry.npmmirror.com/@babel%2fruntime 37ms (cache miss)
+58 silly packumentCache full:https://registry.npmmirror.com/@babel%2fruntime set size:387117 disposed:false
+59 silly fetch manifest rolldown@^1.0.0-rc.5
+60 silly packumentCache full:https://registry.npmmirror.com/rolldown cache-miss
+61 http fetch GET 200 https://registry.npmmirror.com/rolldown 80ms (cache miss)
+62 silly packumentCache full:https://registry.npmmirror.com/rolldown set size:406720 disposed:false
+63 silly fetch manifest vite@^8.2.2
+64 silly packumentCache full:https://registry.npmmirror.com/vite cache-miss
+65 http fetch GET 200 https://registry.npmmirror.com/vite 432ms (cache miss)
+66 silly packumentCache full:https://registry.npmmirror.com/vite set size:6249890 disposed:false
+67 silly fetch manifest @vitejs/devtools@^0.4.0 || ^0.5.0
+68 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fdevtools cache-miss
+69 http fetch GET 200 https://registry.npmmirror.com/@vitejs%2fdevtools 26ms (cache miss)
+70 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fdevtools set size:42962 disposed:false
+71 silly fetch manifest @vitejs/devtools-oxc@^0.5.2
+72 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fdevtools-oxc cache-miss
+73 http fetch GET 200 https://registry.npmmirror.com/@vitejs%2fdevtools-oxc 17ms (cache miss)
+74 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fdevtools-oxc set size:10456 disposed:false
+75 silly fetch manifest @vitejs/devtools-rolldown@^0.5.2
+76 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fdevtools-rolldown cache-miss
+77 http fetch GET 200 https://registry.npmmirror.com/@vitejs%2fdevtools-rolldown 22ms (cache miss)
+78 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fdevtools-rolldown set size:30556 disposed:false
+79 silly fetch manifest @vitejs/devtools-vite@^0.5.2
+80 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fdevtools-vite cache-miss
+81 http fetch GET 200 https://registry.npmmirror.com/@vitejs%2fdevtools-vite 19ms (cache miss)
+82 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fdevtools-vite set size:22164 disposed:false
+83 silly fetch manifest @vitejs/devtools-vitest@^0.5.2
+84 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fdevtools-vitest cache-miss
+85 http fetch GET 200 https://registry.npmmirror.com/@vitejs%2fdevtools-vitest 32ms (cache miss)
+86 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fdevtools-vitest set size:8517 disposed:false
+87 silly fetch manifest vitest@*
+88 silly packumentCache full:https://registry.npmmirror.com/vitest cache-miss
+89 http fetch GET 200 https://registry.npmmirror.com/vitest 53ms (cache miss)
+90 silly packumentCache full:https://registry.npmmirror.com/vitest set size:410764 disposed:false
+91 silly fetch manifest @edge-runtime/vm@*
+92 silly packumentCache full:https://registry.npmmirror.com/@edge-runtime%2fvm cache-miss
+93 http fetch GET 200 https://registry.npmmirror.com/@edge-runtime%2fvm 41ms (cache miss)
+94 silly packumentCache full:https://registry.npmmirror.com/@edge-runtime%2fvm set size:79041 disposed:false
+95 silly fetch manifest @opentelemetry/api@^1.9.0
+96 silly packumentCache full:https://registry.npmmirror.com/@opentelemetry%2fapi cache-miss
+97 http fetch GET 200 https://registry.npmmirror.com/@opentelemetry%2fapi 37ms (cache miss)
+98 silly packumentCache full:https://registry.npmmirror.com/@opentelemetry%2fapi set size:34930 disposed:false
+99 silly fetch manifest @vitest/browser-playwright@5.0.0
+100 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fbrowser-playwright cache-miss
+101 http fetch GET 200 https://registry.npmmirror.com/@vitest%2fbrowser-playwright 38ms (cache miss)
+102 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fbrowser-playwright set size:24197 disposed:false
+103 silly fetch manifest playwright@*
+104 silly packumentCache full:https://registry.npmmirror.com/playwright cache-miss
+105 http fetch GET 200 https://registry.npmmirror.com/playwright 162ms (cache miss)
+106 silly packumentCache full:https://registry.npmmirror.com/playwright set size:2315037 disposed:false
+107 silly fetch manifest @vitest/browser-preview@5.0.0
+108 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fbrowser-preview cache-miss
+109 http fetch GET 200 https://registry.npmmirror.com/@vitest%2fbrowser-preview 38ms (cache miss)
+110 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fbrowser-preview set size:23063 disposed:false
+111 silly fetch manifest @vitest/browser-webdriverio@^5.0.0-beta.5 || >=5.0.0
+112 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fbrowser-webdriverio cache-miss
+113 http fetch GET 200 https://registry.npmmirror.com/@vitest%2fbrowser-webdriverio 29ms (cache miss)
+114 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fbrowser-webdriverio set size:22169 disposed:false
+115 silly fetch manifest webdriverio@*
+116 silly packumentCache full:https://registry.npmmirror.com/webdriverio cache-miss
+117 http fetch GET 200 https://registry.npmmirror.com/webdriverio 68ms (cache miss)
+118 silly packumentCache full:https://registry.npmmirror.com/webdriverio set size:439294 disposed:false
+119 silly fetch manifest puppeteer-core@>=22.x <=24.x
+120 silly packumentCache full:https://registry.npmmirror.com/puppeteer-core cache-miss
+121 http fetch GET 200 https://registry.npmmirror.com/puppeteer-core 46ms (cache miss)
+122 silly packumentCache full:https://registry.npmmirror.com/puppeteer-core set size:229103 disposed:false
+123 silly fetch manifest @vitest/coverage-istanbul@5.0.0
+124 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fcoverage-istanbul cache-miss
+125 http fetch GET 200 https://registry.npmmirror.com/@vitest%2fcoverage-istanbul 39ms (cache miss)
+126 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fcoverage-istanbul set size:122062 disposed:false
+127 silly fetch manifest @vitest/coverage-v8@5.0.0
+128 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fcoverage-v8 cache-miss
+129 http fetch GET 200 https://registry.npmmirror.com/@vitest%2fcoverage-v8 30ms (cache miss)
+130 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fcoverage-v8 set size:77843 disposed:false
+131 silly fetch manifest @vitest/browser@5.0.0
+132 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fbrowser cache-miss
+133 http fetch GET 200 https://registry.npmmirror.com/@vitest%2fbrowser 41ms (cache miss)
+134 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fbrowser set size:142278 disposed:false
+135 silly fetch manifest @vitest/ui@5.0.0
+136 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fui cache-miss
+137 http fetch GET 200 https://registry.npmmirror.com/@vitest%2fui 40ms (cache miss)
+138 silly packumentCache full:https://registry.npmmirror.com/@vitest%2fui set size:263117 disposed:false
+139 silly fetch manifest happy-dom@*
+140 silly packumentCache full:https://registry.npmmirror.com/happy-dom cache-miss
+141 http fetch GET 200 https://registry.npmmirror.com/happy-dom 72ms (cache miss)
+142 silly packumentCache full:https://registry.npmmirror.com/happy-dom set size:389294 disposed:false
+143 silly fetch manifest jsdom@*
+144 silly packumentCache full:https://registry.npmmirror.com/jsdom cache-miss
+145 http fetch GET 200 https://registry.npmmirror.com/jsdom 41ms (cache miss)
+146 silly packumentCache full:https://registry.npmmirror.com/jsdom set size:128440 disposed:false
+147 silly fetch manifest canvas@^3.0.0
+148 silly packumentCache full:https://registry.npmmirror.com/canvas cache-miss
+149 http fetch GET 200 https://registry.npmmirror.com/canvas 38ms (cache miss)
+150 silly packumentCache full:https://registry.npmmirror.com/canvas set size:65554 disposed:false
+151 silly fetch manifest esbuild@^0.27.0 || ^0.28.0
+152 silly packumentCache full:https://registry.npmmirror.com/esbuild cache-miss
+153 http fetch GET 200 https://registry.npmmirror.com/esbuild 22ms (cache miss)
+154 silly packumentCache full:https://registry.npmmirror.com/esbuild set size:216305 disposed:false
+155 silly fetch manifest jiti@>=1.21.0
+156 silly packumentCache full:https://registry.npmmirror.com/jiti cache-miss
+157 http fetch GET 200 https://registry.npmmirror.com/jiti 23ms (cache miss)
+158 silly packumentCache full:https://registry.npmmirror.com/jiti set size:61717 disposed:false
+159 silly fetch manifest less@^4.0.0
+160 silly packumentCache full:https://registry.npmmirror.com/less cache-miss
+161 http fetch GET 200 https://registry.npmmirror.com/less 19ms (cache miss)
+162 silly packumentCache full:https://registry.npmmirror.com/less set size:60025 disposed:false
+163 silly fetch manifest sass@^1.70.0
+164 silly packumentCache full:https://registry.npmmirror.com/sass cache-miss
+165 http fetch GET 200 https://registry.npmmirror.com/sass 30ms (cache miss)
+166 silly packumentCache full:https://registry.npmmirror.com/sass set size:130398 disposed:false
+167 silly fetch manifest sass-embedded@^1.70.0
+168 silly packumentCache full:https://registry.npmmirror.com/sass-embedded cache-miss
+169 http fetch GET 200 https://registry.npmmirror.com/sass-embedded 23ms (cache miss)
+170 silly packumentCache full:https://registry.npmmirror.com/sass-embedded set size:78167 disposed:false
+171 silly fetch manifest stylus@>=0.54.8
+172 silly packumentCache full:https://registry.npmmirror.com/stylus cache-miss
+173 http fetch GET 200 https://registry.npmmirror.com/stylus 23ms (cache miss)
+174 silly packumentCache full:https://registry.npmmirror.com/stylus set size:65242 disposed:false
+175 silly fetch manifest sugarss@^5.0.0
+176 silly packumentCache full:https://registry.npmmirror.com/sugarss cache-miss
+177 http fetch GET 200 https://registry.npmmirror.com/sugarss 17ms (cache miss)
+178 silly packumentCache full:https://registry.npmmirror.com/sugarss set size:8151 disposed:false
+179 silly fetch manifest postcss@^8.3.3
+180 silly packumentCache full:https://registry.npmmirror.com/postcss cache-miss
+181 http fetch GET 200 https://registry.npmmirror.com/postcss 27ms (cache miss)
+182 silly packumentCache full:https://registry.npmmirror.com/postcss set size:103878 disposed:false
+183 silly fetch manifest terser@^5.16.0
+184 silly packumentCache full:https://registry.npmmirror.com/terser cache-miss
+185 http fetch GET 200 https://registry.npmmirror.com/terser 27ms (cache miss)
+186 silly packumentCache full:https://registry.npmmirror.com/terser set size:115805 disposed:false
+187 silly fetch manifest tsx@^4.8.1
+188 silly packumentCache full:https://registry.npmmirror.com/tsx cache-miss
+189 http fetch GET 200 https://registry.npmmirror.com/tsx 43ms (cache miss)
+190 silly packumentCache full:https://registry.npmmirror.com/tsx set size:76441 disposed:false
+191 silly fetch manifest yaml@^2.4.2
+192 silly packumentCache full:https://registry.npmmirror.com/yaml cache-miss
+193 http fetch GET 200 https://registry.npmmirror.com/yaml 40ms (cache miss)
+194 silly packumentCache full:https://registry.npmmirror.com/yaml set size:57741 disposed:false
+195 silly fetch manifest babel-plugin-react-compiler@^1.0.0
+196 silly packumentCache full:https://registry.npmmirror.com/babel-plugin-react-compiler cache-miss
+197 http fetch GET 200 https://registry.npmmirror.com/babel-plugin-react-compiler 32ms (cache miss)
+198 silly packumentCache full:https://registry.npmmirror.com/babel-plugin-react-compiler set size:170325 disposed:false
+199 silly fetch manifest oxc-transform-react@^0.145.0
+200 silly packumentCache full:https://registry.npmmirror.com/oxc-transform-react cache-miss
+201 http fetch GET 200 https://registry.npmmirror.com/oxc-transform-react 32ms (cache miss)
+202 silly packumentCache full:https://registry.npmmirror.com/oxc-transform-react set size:10121 disposed:false
+203 silly fetch manifest oxlint@^1.79.0
+204 silly packumentCache full:https://registry.npmmirror.com/oxlint cache-miss
+205 http fetch GET 200 https://registry.npmmirror.com/oxlint 26ms (cache miss)
+206 silly packumentCache full:https://registry.npmmirror.com/oxlint set size:87757 disposed:false
+207 silly fetch manifest oxlint-tsgolint@>=7.0.2001
+208 silly packumentCache full:https://registry.npmmirror.com/oxlint-tsgolint cache-miss
+209 http fetch GET 200 https://registry.npmmirror.com/oxlint-tsgolint 28ms (cache miss)
+210 silly packumentCache full:https://registry.npmmirror.com/oxlint-tsgolint set size:31496 disposed:false
+211 silly fetch manifest vite-plus@*
+212 silly packumentCache full:https://registry.npmmirror.com/vite-plus cache-miss
+213 http fetch GET 200 https://registry.npmmirror.com/vite-plus 46ms (cache miss)
+214 silly packumentCache full:https://registry.npmmirror.com/vite-plus set size:157326 disposed:false
+215 silly fetch manifest typescript@~6.0.2
+216 silly packumentCache full:https://registry.npmmirror.com/typescript cache-miss
+217 http fetch GET 200 https://registry.npmmirror.com/typescript 135ms (cache miss)
+218 silly packumentCache full:https://registry.npmmirror.com/typescript set size:1716325 disposed:false
+219 silly placeDep ROOT @types/node@24.13.3 OK for: realive-guard@0.0.0 want: ^24.13.3
+220 silly placeDep ROOT @types/react@19.2.18 OK for: realive-guard@0.0.0 want: ^19.2.18
+221 silly placeDep ROOT @types/react-dom@19.2.7 OK for: realive-guard@0.0.0 want: ^19.2.4
+222 silly placeDep ROOT @vitejs/plugin-react@6.1.1 OK for: realive-guard@0.0.0 want: ^6.1.0
+223 silly placeDep ROOT vite@8.2.2 OK for: @vitejs/plugin-react@6.1.1 want: ^8.0.0
+224 silly placeDep ROOT oxlint@1.81.0 OK for: realive-guard@0.0.0 want: ^1.79.0
+225 silly placeDep ROOT react@19.2.8 OK for: realive-guard@0.0.0 want: ^19.2.8
+226 silly placeDep ROOT react-dom@19.2.8 OK for: realive-guard@0.0.0 want: ^19.2.8
+227 silly placeDep ROOT typescript@6.0.3 OK for: realive-guard@0.0.0 want: ~6.0.2
+228 silly fetch manifest undici-types@~7.18.0
+229 silly packumentCache full:https://registry.npmmirror.com/undici-types cache-miss
+230 silly fetch manifest csstype@^3.2.2
+231 silly packumentCache full:https://registry.npmmirror.com/csstype cache-miss
+232 silly fetch manifest @rolldown/pluginutils@^1.0.1
+233 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fpluginutils cache-miss
+234 silly fetch manifest postcss@^8.5.26
+235 silly packumentCache full:https://registry.npmmirror.com/postcss cache-hit
+236 silly fetch manifest rolldown@~1.2.4
+237 silly packumentCache full:https://registry.npmmirror.com/rolldown cache-hit
+238 silly fetch manifest picomatch@^4.0.5
+239 silly packumentCache full:https://registry.npmmirror.com/picomatch cache-miss
+240 silly fetch manifest tinyglobby@^0.2.17
+241 silly packumentCache full:https://registry.npmmirror.com/tinyglobby cache-miss
+242 silly fetch manifest lightningcss@^1.33.0
+243 silly packumentCache full:https://registry.npmmirror.com/lightningcss cache-miss
+244 silly fetch manifest fsevents@~2.3.3
+245 silly packumentCache full:https://registry.npmmirror.com/fsevents cache-miss
+246 silly fetch manifest @oxlint/binding-darwin-x64@1.81.0
+247 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-darwin-x64 cache-miss
+248 silly fetch manifest @oxlint/binding-freebsd-x64@1.81.0
+249 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-freebsd-x64 cache-miss
+250 silly fetch manifest @oxlint/binding-darwin-arm64@1.81.0
+251 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-darwin-arm64 cache-miss
+252 silly fetch manifest @oxlint/binding-android-arm64@1.81.0
+253 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-android-arm64 cache-miss
+254 silly fetch manifest @oxlint/binding-linux-x64-gnu@1.81.0
+255 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-x64-gnu cache-miss
+256 silly fetch manifest @oxlint/binding-linux-x64-musl@1.81.0
+257 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-x64-musl cache-miss
+258 silly fetch manifest @oxlint/binding-win32-x64-msvc@1.81.0
+259 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-win32-x64-msvc cache-miss
+260 silly fetch manifest @oxlint/binding-linux-arm64-gnu@1.81.0
+261 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm64-gnu cache-miss
+262 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fpluginutils 37ms (cache miss)
+263 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fpluginutils set size:49379 disposed:false
+264 silly fetch manifest @oxlint/binding-linux-ppc64-gnu@1.81.0
+265 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-ppc64-gnu cache-miss
+266 http fetch GET 200 https://registry.npmmirror.com/undici-types 67ms (cache miss)
+267 silly packumentCache full:https://registry.npmmirror.com/undici-types set size:49148 disposed:false
+268 silly fetch manifest @oxlint/binding-linux-s390x-gnu@1.81.0
+269 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-s390x-gnu cache-miss
+270 http fetch GET 200 https://registry.npmmirror.com/fsevents 71ms (cache miss)
+271 silly packumentCache full:https://registry.npmmirror.com/fsevents set size:16344 disposed:false
+272 silly fetch manifest @oxlint/binding-win32-ia32-msvc@1.81.0
+273 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-win32-ia32-msvc cache-miss
+274 http fetch GET 200 https://registry.npmmirror.com/tinyglobby 85ms (cache miss)
+275 silly packumentCache full:https://registry.npmmirror.com/tinyglobby set size:11023 disposed:false
+276 silly fetch manifest @oxlint/binding-android-arm-eabi@1.81.0
+277 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-android-arm-eabi cache-miss
+278 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-linux-ppc64-gnu 51ms (cache miss)
+279 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-ppc64-gnu set size:15000 disposed:false
+280 silly fetch manifest @oxlint/binding-linux-arm64-musl@1.81.0
+281 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm64-musl cache-miss
+282 http fetch GET 200 https://registry.npmmirror.com/picomatch 92ms (cache miss)
+283 silly packumentCache full:https://registry.npmmirror.com/picomatch set size:24788 disposed:false
+284 silly fetch manifest @oxlint/binding-win32-arm64-msvc@1.81.0
+285 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-win32-arm64-msvc cache-miss
+286 http fetch GET 200 https://registry.npmmirror.com/csstype 94ms (cache miss)
+287 silly packumentCache full:https://registry.npmmirror.com/csstype set size:41498 disposed:false
+288 silly fetch manifest @oxlint/binding-linux-riscv64-gnu@1.81.0
+289 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-riscv64-gnu cache-miss
+290 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm64-gnu 103ms (cache miss)
+291 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm64-gnu set size:15319 disposed:false
+292 silly fetch manifest @oxlint/binding-openharmony-arm64@1.81.0
+293 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-openharmony-arm64 cache-miss
+294 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-freebsd-x64 109ms (cache miss)
+295 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-freebsd-x64 set size:14601 disposed:false
+296 silly fetch manifest @oxlint/binding-linux-riscv64-musl@1.81.0
+297 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-riscv64-musl cache-miss
+298 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-darwin-x64 116ms (cache miss)
+299 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-darwin-x64 set size:14660 disposed:false
+300 silly fetch manifest @oxlint/binding-linux-arm-gnueabihf@1.81.0
+301 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm-gnueabihf cache-miss
+302 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-win32-x64-msvc 114ms (cache miss)
+303 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-win32-x64-msvc set size:14677 disposed:false
+304 silly fetch manifest @oxlint/binding-linux-arm-musleabihf@1.81.0
+305 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm-musleabihf cache-miss
+306 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-linux-s390x-gnu 52ms (cache miss)
+307 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-s390x-gnu set size:14590 disposed:false
+308 silly fetch manifest scheduler@^0.27.0
+309 silly packumentCache full:https://registry.npmmirror.com/scheduler cache-miss
+310 http fetch GET 200 https://registry.npmmirror.com/lightningcss 121ms (cache miss)
+311 silly packumentCache full:https://registry.npmmirror.com/lightningcss set size:32915 disposed:false
+312 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-win32-ia32-msvc 60ms (cache miss)
+313 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-win32-ia32-msvc set size:14940 disposed:false
+314 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-darwin-arm64 133ms (cache miss)
+315 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-darwin-arm64 set size:15215 disposed:false
+316 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-win32-arm64-msvc 41ms (cache miss)
+317 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-win32-arm64-msvc set size:14444 disposed:false
+318 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm64-musl 47ms (cache miss)
+319 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm64-musl set size:15232 disposed:false
+320 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-linux-riscv64-gnu 48ms (cache miss)
+321 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-riscv64-gnu set size:14635 disposed:false
+322 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-linux-x64-gnu 145ms (cache miss)
+323 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-x64-gnu set size:15004 disposed:false
+324 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-android-arm-eabi 61ms (cache miss)
+325 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-android-arm-eabi set size:14974 disposed:false
+326 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-linux-riscv64-musl 46ms (cache miss)
+327 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-riscv64-musl set size:14879 disposed:false
+328 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-openharmony-arm64 49ms (cache miss)
+329 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-openharmony-arm64 set size:14526 disposed:false
+330 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-linux-x64-musl 161ms (cache miss)
+331 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-x64-musl set size:15063 disposed:false
+332 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-android-arm64 163ms (cache miss)
+333 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-android-arm64 set size:14475 disposed:false
+334 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm-musleabihf 54ms (cache miss)
+335 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm-musleabihf set size:15027 disposed:false
+336 http fetch GET 200 https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm-gnueabihf 56ms (cache miss)
+337 silly packumentCache full:https://registry.npmmirror.com/@oxlint%2fbinding-linux-arm-gnueabihf set size:14509 disposed:false
+338 http fetch GET 200 https://registry.npmmirror.com/scheduler 118ms (cache miss)
+339 silly packumentCache full:https://registry.npmmirror.com/scheduler set size:1177556 disposed:false
+340 silly placeDep ROOT undici-types@7.18.2 OK for: @types/node@24.13.3 want: ~7.18.0
+341 silly placeDep ROOT csstype@3.2.3 OK for: @types/react@19.2.18 want: ^3.2.2
+342 silly placeDep ROOT @rolldown/pluginutils@1.0.1 OK for: @vitejs/plugin-react@6.1.1 want: ^1.0.1
+343 silly placeDep ROOT @oxlint/binding-android-arm-eabi@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+344 silly placeDep ROOT @oxlint/binding-android-arm64@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+345 silly placeDep ROOT @oxlint/binding-darwin-arm64@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+346 silly placeDep ROOT @oxlint/binding-darwin-x64@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+347 silly placeDep ROOT @oxlint/binding-freebsd-x64@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+348 silly placeDep ROOT @oxlint/binding-linux-arm-gnueabihf@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+349 silly placeDep ROOT @oxlint/binding-linux-arm-musleabihf@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+350 silly placeDep ROOT @oxlint/binding-linux-arm64-gnu@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+351 silly placeDep ROOT @oxlint/binding-linux-arm64-musl@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+352 silly placeDep ROOT @oxlint/binding-linux-ppc64-gnu@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+353 silly placeDep ROOT @oxlint/binding-linux-riscv64-gnu@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+354 silly placeDep ROOT @oxlint/binding-linux-riscv64-musl@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+355 silly placeDep ROOT @oxlint/binding-linux-s390x-gnu@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+356 silly placeDep ROOT @oxlint/binding-linux-x64-gnu@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+357 silly placeDep ROOT @oxlint/binding-linux-x64-musl@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+358 silly placeDep ROOT @oxlint/binding-openharmony-arm64@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+359 silly placeDep ROOT @oxlint/binding-win32-arm64-msvc@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+360 silly placeDep ROOT @oxlint/binding-win32-ia32-msvc@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+361 silly placeDep ROOT @oxlint/binding-win32-x64-msvc@1.81.0 OK for: oxlint@1.81.0 want: 1.81.0
+362 silly placeDep ROOT scheduler@0.27.0 OK for: react-dom@19.2.8 want: ^0.27.0
+363 silly placeDep ROOT fsevents@2.3.3 OK for: vite@8.2.2 want: ~2.3.3
+364 silly placeDep ROOT lightningcss@1.33.0 OK for: vite@8.2.2 want: ^1.33.0
+365 silly placeDep ROOT picomatch@4.0.7 OK for: vite@8.2.2 want: ^4.0.5
+366 silly placeDep ROOT postcss@8.5.28 OK for: vite@8.2.2 want: ^8.5.26
+367 silly placeDep ROOT rolldown@1.2.7 OK for: vite@8.2.2 want: ~1.2.4
+368 silly placeDep ROOT tinyglobby@0.2.17 OK for: vite@8.2.2 want: ^0.2.17
+369 silly fetch manifest detect-libc@^2.0.3
+370 silly packumentCache full:https://registry.npmmirror.com/detect-libc cache-miss
+371 silly fetch manifest lightningcss-darwin-x64@1.33.0
+372 silly packumentCache full:https://registry.npmmirror.com/lightningcss-darwin-x64 cache-miss
+373 silly fetch manifest lightningcss-linux-x64-gnu@1.33.0
+374 silly packumentCache full:https://registry.npmmirror.com/lightningcss-linux-x64-gnu cache-miss
+375 silly fetch manifest lightningcss-win32-x64-msvc@1.33.0
+376 silly packumentCache full:https://registry.npmmirror.com/lightningcss-win32-x64-msvc cache-miss
+377 silly fetch manifest lightningcss-win32-arm64-msvc@1.33.0
+378 silly packumentCache full:https://registry.npmmirror.com/lightningcss-win32-arm64-msvc cache-miss
+379 silly fetch manifest lightningcss-darwin-arm64@1.33.0
+380 silly packumentCache full:https://registry.npmmirror.com/lightningcss-darwin-arm64 cache-miss
+381 silly fetch manifest lightningcss-linux-arm64-gnu@1.33.0
+382 silly packumentCache full:https://registry.npmmirror.com/lightningcss-linux-arm64-gnu cache-miss
+383 silly fetch manifest lightningcss-linux-arm-gnueabihf@1.33.0
+384 silly packumentCache full:https://registry.npmmirror.com/lightningcss-linux-arm-gnueabihf cache-miss
+385 silly fetch manifest lightningcss-linux-arm64-musl@1.33.0
+386 silly packumentCache full:https://registry.npmmirror.com/lightningcss-linux-arm64-musl cache-miss
+387 silly fetch manifest lightningcss-linux-x64-musl@1.33.0
+388 silly packumentCache full:https://registry.npmmirror.com/lightningcss-linux-x64-musl cache-miss
+389 silly fetch manifest lightningcss-freebsd-x64@1.33.0
+390 silly packumentCache full:https://registry.npmmirror.com/lightningcss-freebsd-x64 cache-miss
+391 silly fetch manifest lightningcss-android-arm64@1.33.0
+392 silly packumentCache full:https://registry.npmmirror.com/lightningcss-android-arm64 cache-miss
+393 silly fetch manifest nanoid@^3.3.18
+394 silly packumentCache full:https://registry.npmmirror.com/nanoid cache-miss
+395 silly fetch manifest picocolors@^1.1.1
+396 silly packumentCache full:https://registry.npmmirror.com/picocolors cache-miss
+397 silly fetch manifest source-map-js@^1.2.1
+398 silly packumentCache full:https://registry.npmmirror.com/source-map-js cache-miss
+399 http fetch GET 200 https://registry.npmmirror.com/picocolors 27ms (cache miss)
+400 silly packumentCache full:https://registry.npmmirror.com/picocolors set size:4040 disposed:false
+401 silly fetch manifest @oxc-project/types@=0.148.0
+402 silly packumentCache full:https://registry.npmmirror.com/@oxc-project%2ftypes cache-miss
+403 http fetch GET 200 https://registry.npmmirror.com/detect-libc 36ms (cache miss)
+404 silly packumentCache full:https://registry.npmmirror.com/detect-libc set size:10958 disposed:false
+405 silly fetch manifest @rolldown/binding-darwin-x64@1.2.7
+406 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-darwin-x64 cache-miss
+407 http fetch GET 200 https://registry.npmmirror.com/source-map-js 34ms (cache miss)
+408 silly packumentCache full:https://registry.npmmirror.com/source-map-js set size:14399 disposed:false
+409 silly fetch manifest @rolldown/binding-freebsd-x64@1.2.7
+410 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-freebsd-x64 cache-miss
+411 http fetch GET 200 https://registry.npmmirror.com/lightningcss-win32-arm64-msvc 56ms (cache miss)
+412 silly packumentCache full:https://registry.npmmirror.com/lightningcss-win32-arm64-msvc set size:6252 disposed:false
+413 silly fetch manifest @rolldown/binding-darwin-arm64@1.2.7
+414 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-darwin-arm64 cache-miss
+415 http fetch GET 200 https://registry.npmmirror.com/lightningcss-darwin-x64 59ms (cache miss)
+416 silly packumentCache full:https://registry.npmmirror.com/lightningcss-darwin-x64 set size:21278 disposed:false
+417 silly fetch manifest @rolldown/binding-android-arm64@1.2.7
+418 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-android-arm64 cache-miss
+419 http fetch GET 200 https://registry.npmmirror.com/lightningcss-win32-x64-msvc 61ms (cache miss)
+420 silly packumentCache full:https://registry.npmmirror.com/lightningcss-win32-x64-msvc set size:21290 disposed:false
+421 silly fetch manifest @rolldown/binding-linux-x64-gnu@1.2.7
+422 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-x64-gnu cache-miss
+423 http fetch GET 200 https://registry.npmmirror.com/lightningcss-freebsd-x64 60ms (cache miss)
+424 silly packumentCache full:https://registry.npmmirror.com/lightningcss-freebsd-x64 set size:9744 disposed:false
+425 silly fetch manifest @rolldown/binding-linux-x64-musl@1.2.7
+426 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-x64-musl cache-miss
+427 http fetch GET 200 https://registry.npmmirror.com/lightningcss-darwin-arm64 73ms (cache miss)
+428 silly packumentCache full:https://registry.npmmirror.com/lightningcss-darwin-arm64 set size:21170 disposed:false
+429 silly fetch manifest @rolldown/binding-win32-x64-msvc@1.2.7
+430 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-win32-x64-msvc cache-miss
+431 http fetch GET 200 https://registry.npmmirror.com/lightningcss-linux-arm-gnueabihf 76ms (cache miss)
+432 silly packumentCache full:https://registry.npmmirror.com/lightningcss-linux-arm-gnueabihf set size:21566 disposed:false
+433 silly fetch manifest @rolldown/binding-linux-arm64-gnu@1.2.7
+434 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-arm64-gnu cache-miss
+435 http fetch GET 200 https://registry.npmmirror.com/nanoid 75ms (cache miss)
+436 silly packumentCache full:https://registry.npmmirror.com/nanoid set size:54118 disposed:false
+437 silly fetch manifest @rolldown/binding-linux-ppc64-gnu@1.2.7
+438 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-ppc64-gnu cache-miss
+439 http fetch GET 200 https://registry.npmmirror.com/lightningcss-linux-x64-musl 81ms (cache miss)
+440 silly packumentCache full:https://registry.npmmirror.com/lightningcss-linux-x64-musl set size:21742 disposed:false
+441 silly fetch manifest @rolldown/binding-linux-s390x-gnu@1.2.7
+442 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-s390x-gnu cache-miss
+443 http fetch GET 200 https://registry.npmmirror.com/lightningcss-linux-arm64-gnu 85ms (cache miss)
+444 silly packumentCache full:https://registry.npmmirror.com/lightningcss-linux-arm64-gnu set size:21482 disposed:false
+445 silly fetch manifest @rolldown/binding-android-arm-eabi@1.2.7
+446 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-android-arm-eabi cache-miss
+447 http fetch GET 200 https://registry.npmmirror.com/lightningcss-linux-x64-gnu 93ms (cache miss)
+448 silly packumentCache full:https://registry.npmmirror.com/lightningcss-linux-x64-gnu set size:21440 disposed:false
+449 silly fetch manifest @rolldown/binding-linux-arm64-musl@1.2.7
+450 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-arm64-musl cache-miss
+451 http fetch GET 200 https://registry.npmmirror.com/@oxc-project%2ftypes 68ms (cache miss)
+452 silly packumentCache full:https://registry.npmmirror.com/@oxc-project%2ftypes set size:49759 disposed:false
+453 silly fetch manifest @rolldown/binding-win32-arm64-msvc@1.2.7
+454 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-win32-arm64-msvc cache-miss
+455 http fetch GET 200 https://registry.npmmirror.com/lightningcss-linux-arm64-musl 126ms (cache miss)
+456 silly packumentCache full:https://registry.npmmirror.com/lightningcss-linux-arm64-musl set size:21504 disposed:false
+457 silly fetch manifest @rolldown/binding-openharmony-arm64@1.2.7
+458 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-openharmony-arm64 cache-miss
+459 http fetch GET 200 https://registry.npmmirror.com/lightningcss-android-arm64 124ms (cache miss)
+460 silly packumentCache full:https://registry.npmmirror.com/lightningcss-android-arm64 set size:2598 disposed:false
+461 silly fetch manifest @rolldown/binding-linux-arm-gnueabihf@1.2.7
+462 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-arm-gnueabihf cache-miss
+463 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-linux-s390x-gnu 53ms (cache miss)
+464 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-s390x-gnu set size:12884 disposed:false
+465 silly fetch manifest fdir@^6.5.0
+466 silly packumentCache full:https://registry.npmmirror.com/fdir cache-miss
+467 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-linux-ppc64-gnu 57ms (cache miss)
+468 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-ppc64-gnu set size:12886 disposed:false
+469 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-android-arm64 83ms (cache miss)
+470 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-android-arm64 set size:31883 disposed:false
+471 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-freebsd-x64 114ms (cache miss)
+472 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-freebsd-x64 set size:178488 disposed:false
+473 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-android-arm-eabi 80ms (cache miss)
+474 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-android-arm-eabi set size:3776 disposed:false
+475 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-darwin-x64 131ms (cache miss)
+476 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-darwin-x64 set size:232748 disposed:false
+477 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-darwin-arm64 131ms (cache miss)
+478 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-darwin-arm64 set size:231511 disposed:false
+479 http fetch GET 200 https://registry.npmmirror.com/fdir 61ms (cache miss)
+480 silly packumentCache full:https://registry.npmmirror.com/fdir set size:21942 disposed:false
+481 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-linux-x64-gnu 140ms (cache miss)
+482 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-x64-gnu set size:232123 disposed:false
+483 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-openharmony-arm64 88ms (cache miss)
+484 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-openharmony-arm64 set size:25272 disposed:false
+485 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-linux-x64-musl 152ms (cache miss)
+486 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-x64-musl set size:232981 disposed:false
+487 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-win32-x64-msvc 157ms (cache miss)
+488 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-win32-x64-msvc set size:233293 disposed:false
+489 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-win32-arm64-msvc 140ms (cache miss)
+490 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-win32-arm64-msvc set size:234446 disposed:false
+491 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-linux-arm64-gnu 177ms (cache miss)
+492 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-arm64-gnu set size:233314 disposed:false
+493 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-linux-arm64-musl 173ms (cache miss)
+494 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-arm64-musl set size:233873 disposed:false
+495 http fetch GET 200 https://registry.npmmirror.com/@rolldown%2fbinding-linux-arm-gnueabihf 146ms (cache miss)
+496 silly packumentCache full:https://registry.npmmirror.com/@rolldown%2fbinding-linux-arm-gnueabihf set size:234288 disposed:false
+497 silly placeDep ROOT detect-libc@2.1.2 OK for: lightningcss@1.33.0 want: ^2.0.3
+498 silly placeDep ROOT lightningcss-android-arm64@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+499 silly placeDep ROOT lightningcss-darwin-arm64@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+500 silly placeDep ROOT lightningcss-darwin-x64@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+501 silly placeDep ROOT lightningcss-freebsd-x64@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+502 silly placeDep ROOT lightningcss-linux-arm-gnueabihf@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+503 silly placeDep ROOT lightningcss-linux-arm64-gnu@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+504 silly placeDep ROOT lightningcss-linux-arm64-musl@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+505 silly placeDep ROOT lightningcss-linux-x64-gnu@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+506 silly placeDep ROOT lightningcss-linux-x64-musl@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+507 silly placeDep ROOT lightningcss-win32-arm64-msvc@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+508 silly placeDep ROOT lightningcss-win32-x64-msvc@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+509 silly placeDep ROOT nanoid@3.3.18 OK for: postcss@8.5.28 want: ^3.3.18
+510 silly placeDep ROOT picocolors@1.1.1 OK for: postcss@8.5.28 want: ^1.1.1
+511 silly placeDep ROOT source-map-js@1.2.1 OK for: postcss@8.5.28 want: ^1.2.1
+512 silly placeDep ROOT @oxc-project/types@0.148.0 OK for: rolldown@1.2.7 want: =0.148.0
+513 silly placeDep ROOT @rolldown/binding-android-arm-eabi@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+514 silly placeDep ROOT @rolldown/binding-android-arm64@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+515 silly placeDep ROOT @rolldown/binding-darwin-arm64@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+516 silly placeDep ROOT @rolldown/binding-darwin-x64@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+517 silly placeDep ROOT @rolldown/binding-freebsd-x64@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+518 silly placeDep ROOT @rolldown/binding-linux-arm-gnueabihf@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+519 silly placeDep ROOT @rolldown/binding-linux-arm64-gnu@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+520 silly placeDep ROOT @rolldown/binding-linux-arm64-musl@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+521 silly placeDep ROOT @rolldown/binding-linux-ppc64-gnu@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+522 silly placeDep ROOT @rolldown/binding-linux-s390x-gnu@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+523 silly placeDep ROOT @rolldown/binding-linux-x64-gnu@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+524 silly placeDep ROOT @rolldown/binding-linux-x64-musl@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+525 silly placeDep ROOT @rolldown/binding-openharmony-arm64@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+526 silly placeDep ROOT @rolldown/binding-win32-arm64-msvc@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+527 silly placeDep ROOT @rolldown/binding-win32-x64-msvc@1.2.7 OK for: rolldown@1.2.7 want: 1.2.7
+528 silly fetch manifest picomatch@^4.0.4
+529 silly packumentCache full:https://registry.npmmirror.com/picomatch cache-hit
+530 silly placeDep ROOT fdir@6.5.0 OK for: tinyglobby@0.2.17 want: ^6.5.0
+531 silly reify moves {}
+532 silly audit bulk request {
+532 silly audit   '@types/node': [ '24.13.3' ],
+532 silly audit   '@types/react': [ '19.2.18' ],
+532 silly audit   '@types/react-dom': [ '19.2.7' ],
+532 silly audit   '@vitejs/plugin-react': [ '6.1.1' ],
+532 silly audit   vite: [ '8.2.2' ],
+532 silly audit   oxlint: [ '1.81.0' ],
+532 silly audit   react: [ '19.2.8' ],
+532 silly audit   'react-dom': [ '19.2.8' ],
+532 silly audit   typescript: [ '6.0.3' ],
+532 silly audit   'undici-types': [ '7.18.2' ],
+532 silly audit   csstype: [ '3.2.3' ],
+532 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+532 silly audit   '@oxlint/binding-android-arm-eabi': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-android-arm64': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-darwin-arm64': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-darwin-x64': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-freebsd-x64': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-linux-arm-gnueabihf': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-linux-arm-musleabihf': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-linux-arm64-gnu': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-linux-arm64-musl': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-linux-ppc64-gnu': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-linux-riscv64-gnu': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-linux-riscv64-musl': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-linux-s390x-gnu': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-linux-x64-gnu': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-linux-x64-musl': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-openharmony-arm64': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-win32-arm64-msvc': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-win32-ia32-msvc': [ '1.81.0' ],
+532 silly audit   '@oxlint/binding-win32-x64-msvc': [ '1.81.0' ],
+532 silly audit   scheduler: [ '0.27.0' ],
+532 silly audit   fsevents: [ '2.3.3' ],
+532 silly audit   lightningcss: [ '1.33.0' ],
+532 silly audit   picomatch: [ '4.0.7' ],
+532 silly audit   postcss: [ '8.5.28' ],
+532 silly audit   rolldown: [ '1.2.7' ],
+532 silly audit   tinyglobby: [ '0.2.17' ],
+532 silly audit   'detect-libc': [ '2.1.2' ],
+532 silly audit   'lightningcss-android-arm64': [ '1.33.0' ],
+532 silly audit   'lightningcss-darwin-arm64': [ '1.33.0' ],
+532 silly audit   'lightningcss-darwin-x64': [ '1.33.0' ],
+532 silly audit   'lightningcss-freebsd-x64': [ '1.33.0' ],
+532 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.33.0' ],
+532 silly audit   'lightningcss-linux-arm64-gnu': [ '1.33.0' ],
+532 silly audit   'lightningcss-linux-arm64-musl': [ '1.33.0' ],
+532 silly audit   'lightningcss-linux-x64-gnu': [ '1.33.0' ],
+532 silly audit   'lightningcss-linux-x64-musl': [ '1.33.0' ],
+532 silly audit   'lightningcss-win32-arm64-msvc': [ '1.33.0' ],
+532 silly audit   'lightningcss-win32-x64-msvc': [ '1.33.0' ],
+532 silly audit   nanoid: [ '3.3.18' ],
+532 silly audit   picocolors: [ '1.1.1' ],
+532 silly audit   'source-map-js': [ '1.2.1' ],
+532 silly audit   '@oxc-project/types': [ '0.148.0' ],
+532 silly audit   '@rolldown/binding-android-arm-eabi': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-android-arm64': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-darwin-arm64': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-darwin-x64': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-freebsd-x64': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.2.7' ],
+532 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.2.7' ],
+532 silly audit   fdir: [ '6.5.0' ]
+532 silly audit }
+533 http cache @rolldown/binding-win32-x64-msvc@https://registry.npmmirror.com/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.7.tgz 0ms (cache hit)
+534 http cache fdir@https://registry.npmmirror.com/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+535 http cache @oxc-project/types@https://registry.npmmirror.com/@oxc-project/types/-/types-0.148.0.tgz 0ms (cache hit)
+536 http cache source-map-js@https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+537 http cache lightningcss-win32-x64-msvc@https://registry.npmmirror.com/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.33.0.tgz 0ms (cache hit)
+538 http cache picocolors@https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+539 http cache nanoid@https://registry.npmmirror.com/nanoid/-/nanoid-3.3.18.tgz 0ms (cache hit)
+540 http cache detect-libc@https://registry.npmmirror.com/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+541 http cache tinyglobby@https://registry.npmmirror.com/tinyglobby/-/tinyglobby-0.2.17.tgz 0ms (cache hit)
+542 http cache postcss@https://registry.npmmirror.com/postcss/-/postcss-8.5.28.tgz 0ms (cache hit)
+543 http cache rolldown@https://registry.npmmirror.com/rolldown/-/rolldown-1.2.7.tgz 0ms (cache hit)
+544 http cache @rolldown/pluginutils@https://registry.npmmirror.com/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz 0ms (cache hit)
+545 http cache @oxlint/binding-win32-x64-msvc@https://registry.npmmirror.com/@oxlint/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.81.0.tgz 0ms (cache hit)
+546 http cache picomatch@https://registry.npmmirror.com/picomatch/-/picomatch-4.0.7.tgz 0ms (cache hit)
+547 http cache lightningcss@https://registry.npmmirror.com/lightningcss/-/lightningcss-1.33.0.tgz 0ms (cache hit)
+548 http cache scheduler@https://registry.npmmirror.com/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+549 http cache csstype@https://registry.npmmirror.com/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+550 http cache undici-types@https://registry.npmmirror.com/undici-types/-/undici-types-7.18.2.tgz 0ms (cache hit)
+551 http cache react-dom@https://registry.npmmirror.com/react-dom/-/react-dom-19.2.8.tgz 0ms (cache hit)
+552 http cache @vitejs/plugin-react@https://registry.npmmirror.com/@vitejs/plugin-react/-/plugin-react-6.1.1.tgz 0ms (cache hit)
+553 http cache typescript@https://registry.npmmirror.com/typescript/-/typescript-6.0.3.tgz 0ms (cache hit)
+554 silly tarball no local data for @rolldown/binding-win32-x64-msvc@https://registry.npmmirror.com/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.7.tgz. Extracting by manifest.
+555 silly tarball no local data for fdir@https://registry.npmmirror.com/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+556 http cache react@https://registry.npmmirror.com/react/-/react-19.2.8.tgz 0ms (cache hit)
+557 http cache oxlint@https://registry.npmmirror.com/oxlint/-/oxlint-1.81.0.tgz 0ms (cache hit)
+558 http cache vite@https://registry.npmmirror.com/vite/-/vite-8.2.2.tgz 0ms (cache hit)
+559 silly tarball no local data for @oxc-project/types@https://registry.npmmirror.com/@oxc-project/types/-/types-0.148.0.tgz. Extracting by manifest.
+560 silly tarball no local data for source-map-js@https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+561 silly tarball no local data for lightningcss-win32-x64-msvc@https://registry.npmmirror.com/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.33.0.tgz. Extracting by manifest.
+562 silly tarball no local data for picocolors@https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+563 silly tarball no local data for nanoid@https://registry.npmmirror.com/nanoid/-/nanoid-3.3.18.tgz. Extracting by manifest.
+564 silly tarball no local data for detect-libc@https://registry.npmmirror.com/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+565 silly tarball no local data for tinyglobby@https://registry.npmmirror.com/tinyglobby/-/tinyglobby-0.2.17.tgz. Extracting by manifest.
+566 silly tarball no local data for postcss@https://registry.npmmirror.com/postcss/-/postcss-8.5.28.tgz. Extracting by manifest.
+567 silly tarball no local data for rolldown@https://registry.npmmirror.com/rolldown/-/rolldown-1.2.7.tgz. Extracting by manifest.
+568 silly tarball no local data for @rolldown/pluginutils@https://registry.npmmirror.com/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz. Extracting by manifest.
+569 silly tarball no local data for @oxlint/binding-win32-x64-msvc@https://registry.npmmirror.com/@oxlint/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.81.0.tgz. Extracting by manifest.
+570 silly tarball no local data for picomatch@https://registry.npmmirror.com/picomatch/-/picomatch-4.0.7.tgz. Extracting by manifest.
+571 silly tarball no local data for lightningcss@https://registry.npmmirror.com/lightningcss/-/lightningcss-1.33.0.tgz. Extracting by manifest.
+572 silly tarball no local data for scheduler@https://registry.npmmirror.com/scheduler/-/scheduler-0.27.0.tgz. Extracting by manifest.
+573 silly tarball no local data for csstype@https://registry.npmmirror.com/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+574 silly tarball no local data for undici-types@https://registry.npmmirror.com/undici-types/-/undici-types-7.18.2.tgz. Extracting by manifest.
+575 silly tarball no local data for react-dom@https://registry.npmmirror.com/react-dom/-/react-dom-19.2.8.tgz. Extracting by manifest.
+576 silly tarball no local data for @vitejs/plugin-react@https://registry.npmmirror.com/@vitejs/plugin-react/-/plugin-react-6.1.1.tgz. Extracting by manifest.
+577 silly tarball no local data for typescript@https://registry.npmmirror.com/typescript/-/typescript-6.0.3.tgz. Extracting by manifest.
+578 http cache @types/react@https://registry.npmmirror.com/@types/react/-/react-19.2.18.tgz 0ms (cache hit)
+579 http cache @types/react-dom@https://registry.npmmirror.com/@types/react-dom/-/react-dom-19.2.7.tgz 0ms (cache hit)
+580 http cache @types/node@https://registry.npmmirror.com/@types/node/-/node-24.13.3.tgz 0ms (cache hit)
+581 silly tarball no local data for react@https://registry.npmmirror.com/react/-/react-19.2.8.tgz. Extracting by manifest.
+582 silly tarball no local data for oxlint@https://registry.npmmirror.com/oxlint/-/oxlint-1.81.0.tgz. Extracting by manifest.
+583 silly tarball no local data for vite@https://registry.npmmirror.com/vite/-/vite-8.2.2.tgz. Extracting by manifest.
+584 silly tarball no local data for @types/react@https://registry.npmmirror.com/@types/react/-/react-19.2.18.tgz. Extracting by manifest.
+585 silly tarball no local data for @types/react-dom@https://registry.npmmirror.com/@types/react-dom/-/react-dom-19.2.7.tgz. Extracting by manifest.
+586 silly tarball no local data for @types/node@https://registry.npmmirror.com/@types/node/-/node-24.13.3.tgz. Extracting by manifest.
+587 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 38ms
+588 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+588 verbose audit error     at D:\nvm\v22.15.1\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+588 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+588 verbose audit error     at async #getReport (D:\nvm\v22.15.1\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:275:19)
+588 verbose audit error     at async AuditReport.run (D:\nvm\v22.15.1\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:100:19) {
+588 verbose audit error   headers: [Object: null prototype] {
+588 verbose audit error     server: [ 'Tengine' ],
+588 verbose audit error     date: [ 'Mon, 07 Sep 2026 11:42:54 GMT' ],
+588 verbose audit error     'content-type': [ 'application/json' ],
+588 verbose audit error     'transfer-encoding': [ 'chunked' ],
+588 verbose audit error     connection: [ 'keep-alive' ],
+588 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+588 verbose audit error     via: [ 'kunlun5.cn9067[,404666]' ],
+588 verbose audit error     'timing-allow-origin': [ '*' ],
+588 verbose audit error     eagleid: [ '01c21f0a17887813741648891e' ],
+588 verbose audit error     'x-fetch-attempts': [ '1' ]
+588 verbose audit error   },
+588 verbose audit error   statusCode: 404,
+588 verbose audit error   code: 'E404',
+588 verbose audit error   method: 'POST',
+588 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk',
+588 verbose audit error   body: {
+588 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+588 verbose audit error   },
+588 verbose audit error   pkgid: undefined
+588 verbose audit error }
+589 silly audit error [object Object]
+590 silly audit report null
+591 http fetch GET 200 https://cdn.npmmirror.com/packages/%40oxc-project/types/0.148.0/types-0.148.0.tgz 296ms (cache miss)
+592 http fetch GET 200 https://cdn.npmmirror.com/packages/picocolors/1.1.1/picocolors-1.1.1.tgz 299ms (cache miss)
+593 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/react-dom/19.2.7/react-dom-19.2.7.tgz 301ms (cache miss)
+594 http fetch GET 200 https://cdn.npmmirror.com/packages/fdir/6.5.0/fdir-6.5.0.tgz 333ms (cache miss)
+595 http fetch GET 200 https://cdn.npmmirror.com/packages/tinyglobby/0.2.17/tinyglobby-0.2.17.tgz 331ms (cache miss)
+596 http fetch GET 200 https://cdn.npmmirror.com/packages/detect-libc/2.1.2/detect-libc-2.1.2.tgz 334ms (cache miss)
+597 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vitejs/plugin-react/6.1.1/plugin-react-6.1.1.tgz 334ms (cache miss)
+598 http fetch GET 200 https://cdn.npmmirror.com/packages/picomatch/4.0.7/picomatch-4.0.7.tgz 346ms (cache miss)
+599 http fetch GET 200 https://cdn.npmmirror.com/packages/%40rolldown/pluginutils/1.0.1/pluginutils-1.0.1.tgz 349ms (cache miss)
+600 http fetch GET 200 https://cdn.npmmirror.com/packages/source-map-js/1.2.1/source-map-js-1.2.1.tgz 389ms (cache miss)
+601 http fetch GET 200 https://cdn.npmmirror.com/packages/csstype/3.2.3/csstype-3.2.3.tgz 388ms (cache miss)
+602 http fetch GET 200 https://cdn.npmmirror.com/packages/lightningcss/1.33.0/lightningcss-1.33.0.tgz 392ms (cache miss)
+603 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/react/19.2.18/react-19.2.18.tgz 383ms (cache miss)
+604 http fetch GET 200 https://cdn.npmmirror.com/packages/nanoid/3.3.18/nanoid-3.3.18.tgz 408ms (cache miss)
+605 http fetch GET 200 https://cdn.npmmirror.com/packages/scheduler/0.27.0/scheduler-0.27.0.tgz 410ms (cache miss)
+606 http fetch GET 200 https://cdn.npmmirror.com/packages/react/19.2.8/react-19.2.8.tgz 422ms (cache miss)
+607 http fetch GET 200 https://cdn.npmmirror.com/packages/undici-types/7.18.2/undici-types-7.18.2.tgz 450ms (cache miss)
+608 http fetch GET 200 https://cdn.npmmirror.com/packages/postcss/8.5.28/postcss-8.5.28.tgz 521ms (cache miss)
+609 http fetch GET 200 https://cdn.npmmirror.com/packages/oxlint/1.81.0/oxlint-1.81.0.tgz 529ms (cache miss)
+610 http fetch GET 200 https://cdn.npmmirror.com/packages/rolldown/1.2.7/rolldown-1.2.7.tgz 556ms (cache miss)
+611 http fetch GET 200 https://cdn.npmmirror.com/packages/vite/8.2.2/vite-8.2.2.tgz 578ms (cache miss)
+612 http fetch GET 200 https://cdn.npmmirror.com/packages/react-dom/19.2.8/react-dom-19.2.8.tgz 759ms (cache miss)
+613 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/node/24.13.3/node-24.13.3.tgz 781ms (cache miss)
+614 http fetch GET 200 https://cdn.npmmirror.com/packages/lightningcss-win32-x64-msvc/1.33.0/lightningcss-win32-x64-msvc-1.33.0.tgz 971ms (cache miss)
+615 http fetch GET 200 https://cdn.npmmirror.com/packages/%40oxlint/binding-win32-x64-msvc/1.81.0/binding-win32-x64-msvc-1.81.0.tgz 1607ms (cache miss)
+616 http fetch GET 200 https://cdn.npmmirror.com/packages/typescript/6.0.3/typescript-6.0.3.tgz 1614ms (cache miss)
+617 http fetch GET 200 https://cdn.npmmirror.com/packages/%40rolldown/binding-win32-x64-msvc/1.2.7/binding-win32-x64-msvc-1.2.7.tgz 1944ms (cache miss)
+618 silly ADD node_modules/fdir
+619 silly ADD node_modules/@rolldown/binding-win32-x64-msvc
+620 silly ADD node_modules/@oxc-project/types
+621 silly ADD node_modules/source-map-js
+622 silly ADD node_modules/picocolors
+623 silly ADD node_modules/nanoid
+624 silly ADD node_modules/lightningcss-win32-x64-msvc
+625 silly ADD node_modules/detect-libc
+626 silly ADD node_modules/tinyglobby
+627 silly ADD node_modules/rolldown
+628 silly ADD node_modules/postcss
+629 silly ADD node_modules/picomatch
+630 silly ADD node_modules/lightningcss
+631 silly ADD node_modules/scheduler
+632 silly ADD node_modules/@oxlint/binding-win32-x64-msvc
+633 silly ADD node_modules/@rolldown/pluginutils
+634 silly ADD node_modules/csstype
+635 silly ADD node_modules/undici-types
+636 silly ADD node_modules/typescript
+637 silly ADD node_modules/react-dom
+638 silly ADD node_modules/react
+639 silly ADD node_modules/oxlint
+640 silly ADD node_modules/vite
+641 silly ADD node_modules/@vitejs/plugin-react
+642 silly ADD node_modules/@types/react-dom
+643 silly ADD node_modules/@types/react
+644 silly ADD node_modules/@types/node
+645 verbose cwd d:\suyuan\realive-guard
+646 verbose os Windows_NT 10.0.26200
+647 verbose node v22.15.1
+648 verbose npm  v11.16.0
+649 notice
+649 notice New minor version of npm available! 11.16.0 -> 11.19.1
+649 notice Changelog: https://github.com/npm/cli/releases/tag/v11.19.1
+649 notice To update run: npm install -g npm@11.19.1
+649 notice  { force: true, [Symbol(proc-log.meta)]: true }
+650 verbose exit 0
+651 info ok
